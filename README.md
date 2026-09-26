@@ -1,5 +1,6 @@
 # CRM_LEAD_ANALYTICS
 Analyzing marketing channel conversion rates using CRM lead data
+
 For this project I wanted to figure out which marketing channels actually convert leads into real customers not just which ones bring in the most leads. I used the Olist Marketing Funnel dataset from Kaggle which has two files, one with all the leads that came in and one with the leads that actually turned into closed deals both files share a lead id so I merged them together to see which leads converted.
 Using pandas, I calculated the conversion rate for each marketing channel by dividing the number of closed deals with the total number of leads from that channel from there I made a simple bar chart to visualize the results.
 The most interesting finding was that organic search brought in the most closed deals overall but paid search actually had a slightly higher conversion rate (12.3% vs 11.8%) so paid search was technically more efficient even though organic search looked better if you only counted raw numbers. Email marketing converted at only 3% which was surprising since email is usually considered a cheap source. A good chunk of leads also had an "unknown" origin which I think is more of a data quality issue than an actual insight so I didn't read too much into it.
