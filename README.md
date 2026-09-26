@@ -7,6 +7,8 @@ Using pandas, I calculated the conversion rate for each marketing channel by div
 
 The most interesting finding was that organic search brought in the most closed deals overall but paid search actually had a slightly higher conversion rate (12.3% vs 11.8%) so paid search was technically more efficient even though organic search looked better if you only counted raw numbers. Email marketing converted at only 3% which was surprising since email is usually considered a cheap source. A good chunk of leads also had an "unknown" origin which I think is more of a data quality issue than an actual insight so I didn't read too much into it.
 
+![Conversion Rate Chart](conversionrate.png)
+
 If I had more time I would want to look at whether conversion rates change depending on the type of business or how much revenue they make and try to figure out what's causing so many leads to have an unknown origin.
 
 To run this project yourself just install pandas and matplotlib then open the notebook file in Jupyter and run the cells in order.
